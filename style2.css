@@ -1,0 +1,113 @@
+html{
+    font-family: 'Roboto Slab', serif;
+}
+/*contact us page*/
+.row{
+    padding: 20 60px;
+    border: 1px solid #c0c0c0;
+}
+.row img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-top: 30px;
+    border: 1.6px solid crimson;
+}
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  input[type=submit] {
+    background-image: linear-gradient(to right, crimson, red);
+    color: white;
+    padding: 12px 25px;
+    border-color: red;
+    border-radius: 27px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 17px;
+}
+/* Style the container/contact section */
+.contact {
+    padding: 10px;
+    margin: 10px 50px;
+}
+.footer{
+    border-top: 1px solid crimson;
+    padding: 20px;
+    font-size: 20px;
+    color: red;
+}
+
+/* navbars */
+.navbar{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+ul{
+    flex: 1;
+    text-align: left;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 12px;
+    font-size: 18px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    position: relative;
+}
+ul li a::after{
+    content: '';
+    width: 0%;
+    height: 9px;
+    background: crimson;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
+    transition: 0.5s;
+}
+ul li a:hover::after{
+    width: 100%;
+}
+.navbar{
+    background-image: linear-gradient(to right, #f1f1f1, #c0c0c0);
+    margin:0 100px;
+}
+.navbar-icons img{
+    height: 25px;
+    margin-left: -60px;
+    cursor: pointer;
+}
+.navbar-icons{
+    margin-left: 40px;
+}
+span{
+    color: crimson;
+}
+.contact h2{
+    font-size: 70px;
+}
+.contact hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
